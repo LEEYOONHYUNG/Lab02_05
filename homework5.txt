@@ -1,0 +1,2 @@
+1. What is .gitignore? You can write the answer either in Korean or English.
+2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
