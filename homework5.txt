@@ -1,3 +1,9 @@
 0. What is your name and student ID?
+-> name : 하유섭
+-> student ID : 2020-11654
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+-> 프로젝트에 필요하지않은 백업파일이나 로그파일, 혹은 컴파일된 파일들을 git에서 제외시킬 수 있는 설정파일
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+->ssh key는 public key와 private key로 구성되어 public key는 공개되고 private key는 본인만 가지고 있어서 데이터를 암호, 복호화 할 때 이용된다. 만약 키가 일치하면 접근이 허용된다. ssh key는 public key로부터 private key를 알 수 없으므로 인증된 사용자만 git에 접근할 수 있다.
