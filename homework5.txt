@@ -1,3 +1,8 @@
 0. What is your name and student ID?
+Lee Gwan Woo, 2020-11813
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+When we adding the file to staging area, there can be some files that are needless or reluctant to add. We can exclude them one by one, but to exclude them more efficiently, we use .gitignore directory.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+We can push our files to github server. However, when anyone can access to my github id and change my files, we can't trust the github site. So, to make only the accessible person can contact with my repository file, we make SSH key pair.
