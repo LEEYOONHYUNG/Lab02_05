@@ -1,3 +1,10 @@
 0. What is your name and student ID?
+-이상명, 2020-10476
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+-git을 통한 version control에서 제외할 파일 목록을 지정하는 파일. (ex. 'git add . ' command를 사용하면 변경 사항 전체를 stage하고 commit하게 된다. 
+그런데 변경 사항의 일부는 stage하고 싶지 않은 경우가 생길 수 있다. 이때 .gitignore를 통해 stage하지 않을 파일을 지정할 수 있다.)
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+-타 사용자가 나의 repo에 본인의 작업물을 push하면 내가 그동안 작업한 내역이 사라질 수 있음. 이를 방지위해 암호를 만듦.
+(SSH = Secure Shell, 원격 제어 상황에서의 보안을 위해 사용하는 키이며 개인 키와 공개 키의 페어로 이루어져있다.)
