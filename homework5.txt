@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+ 강도우, 2020-14350
 1. What is .gitignore? You can write the answer either in Korean or English.
+프로젝트 작업에서 원격 저장소에 올리고 싶지 않은 파일들을 모아놓은 곳이다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+원격 저장소에 파일들을 자유롭게 이용하기 위해선 사용자는 본인임을 인증하여야 한다. 이때, 사용되는 것이 SSH key이다.
