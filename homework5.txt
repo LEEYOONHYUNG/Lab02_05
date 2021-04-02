@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+Lee Seo Yong, 2020-14281
 1. What is .gitignore? You can write the answer either in Korean or English.
+gitignore is a file that lists all the files that you want to make Git to ignore
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH is a abbreviation for Secure shell and is used to access remote computers. It is a similar protocol to TelNet but the communication is encrypted. By using SSH public& private keys we can access  remote machine through local machines safely.
