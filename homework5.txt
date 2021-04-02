@@ -1,3 +1,11 @@
 0. What is your name and student ID?
+
+KIM HOJOON, 2020-17400
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+
+A file which is used to ignore from git(not tracked, not untracked, 
+third state)
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH provides a secure channel over an unsecured network. SSH key consists of Private Key and Public Key. Public key is in server and private key is in client. It does not compare the actual key, but checks if user has the key. it is a cryptographic network protocol. used in remote connection.
