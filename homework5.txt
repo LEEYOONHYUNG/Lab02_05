@@ -1,3 +1,11 @@
 0. What is your name and student ID?
 1. What is .gitignore? You can write the answer either in Korean or English.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+
+answer
+0. My name is Song Hyo-Geun and student ID is 2020-11702
+
+1. git에서 track 하지 못하게 파일 또는 디렉토리를 설정하여 git에서 관리하지 않게 할 파일 또는 디렉토리 목록을 의미한다.
+
+2. SSH key는 공개키와 비공개키 두개로 이루어져있다. 이때, 서버에는 공개키가 개인 기기에는 비공개키가 있어, 서버에 등록된 공개키와 기기내 비공개키가 같은지 확인하는 방식으로 SSH 접속이 이루어진다.
+따라서, 비밀번호대신 SSH key pair을사용하는 이유는 매번 입력해야하고 유출되기 쉬운 비밀번호 대신에, SSH key는 개인 기기에 저장되어 외부에 쉽게 노출되지 않아 보안성이 높고, 키가 저장되어있는 기기에서 사용자가 입력하는 것이 아니라 서버와 기기가 자동으로 비교를 하는 형식이라 좀 더 편리한 측면이 있어 SSH key pair 방식을 사용한다.
