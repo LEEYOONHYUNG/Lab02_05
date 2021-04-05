@@ -1,3 +1,9 @@
 0. What is your name and student ID?
 1. What is .gitignore? You can write the answer either in Korean or English.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+
+
+
+0. My name is 강민구 and my student ID is 2020-16599
+1. .gitignore는 하나의 파일이라고 볼 수 있다. gitignore은 불필요한 파일이 github 등에 올라가지 않도록 하기 위해 사용한다. 
+2. SSH는 암호화된 원격 접속 프로토콜로,  컴퓨터와 컴퓨터 간 통신이 인터넷과 같은 public한 네트워크를 통해 이루어질 때 보안적으로 안전함을 보장하기 위하여 사용된다. SSH key가 필요한 상황은 다양하지만, 대표적으로 사용자 비밀번호 입력 방식보다 높은 수준의 보안을 필요로 할 때, 사용자 계정 입력을 자동화해야 할 때, github 계정의 이중 인증이 필요한 상황이 발생할 때 SSH key가 필요하다.  
