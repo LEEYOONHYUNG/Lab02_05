@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+장지환, 2020-19122
 1. What is .gitignore? You can write the answer either in Korean or English.
+.gitignore 파일은 프로젝트에는 포함되지만 commit/push에는 포함되지 않기를 바라는 파일의 목록을 저장하는 파일이다. 이 파일을 함께 push하면 해당하는 파일은 untrakced 상태를 유지하게 된다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+Local repository의 파일을 remote repo에 push할 때 수정 권한을 가지고 있음을 인증해야 한다. 이때 사용자가 SSH public key를 github에 등록하여 인증이 가능하도록, 따라서 git을 push할 수 있도록 한다. SSH key는 사용자와 서버가 공유하는 public key, 사용자만이 보유하는 private key로 구성되는데, public key로 암호화는 가능하지만 복호화에는 private key가 필요하므로 데이터의 보안을 확보할 수 있다.
