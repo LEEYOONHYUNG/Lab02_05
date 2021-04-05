@@ -1,3 +1,15 @@
 0. What is your name and student ID?
+김태민 2020-15487
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+Git에 업로드할 때 업로드를 원하지 않는 파일을 제외시킬 수 있는 설정 파일이다.
+원하지 않는 데이터 충돌이 발생하는 것을 방지한다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH가 있어야지만 Github에 push할 수 있다.
+타인이 나의 repository에 마음대로 push하여 나의 repository가 오염되는 것을 방지하기 위함이다.
+SSH란 Secure Shell Protocol로 두 컴퓨터가 서로 통신할 때 보안적으로 안전하게 통신할 수 있도록 하기 위해 사용하는 프로토콜이다.
+SSH는 한 쌍의 Key로 이루어져 있는데 Private Key와 Public Key이다.
+Public Key는 공개되어도 괜찮은 키로, 이를 Github에 등록한다.
+Private Key는 공개되어서는 안 되는 키로, 본인의 컴퓨터에 저장되어 있다.
+Private Key와 Public Key를 비교하는 과정을 통해 본인이 맞는지 확인한다.
