@@ -1,3 +1,11 @@
 0. What is your name and student ID?
+서성민, 2020-11166
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+.gitignore는 프로젝트에서 원하지 않는 특정 파일을 git에서 제외시킬 수 있는 파일이다. (의도적으로 untracked할 파일을 지정한다)
+최상위 디렉토리에 .gitignore라는 이름의 파일을 만들고 그 안에 제외할 목록을 만들어주면 된다. 
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH 키 페어는 비밀번호(github account info)보다 안전하게 사용자를 식별하는 방법이기 때문이다.
+SSH 키 페어는 public 키와 private 키로 구성되는데, private 키는 내 컴퓨터에만 저장되는 비밀 정보이고 public 키는 Github 등에 공유되는 정보이다.
+public 키로 암호화한 정보를  해당 키의 페어인 private 키로만 해석할 수 있기 때문에, 이러한 특성을 이용하여 Github에서 사용자를 인증하는 것이다. 
