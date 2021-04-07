@@ -1,6 +1,6 @@
 0. What is your name and student ID?
 
-안민규, 2020-14196
+안민규, 2020-14196.
 
 1. What is .gitignore? You can write the answer either in Korean or English.
 
