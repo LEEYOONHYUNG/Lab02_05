@@ -1,3 +1,11 @@
 0. What is your name and student ID?
+
+안민규, 2020-14196.
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+
+project에 원하지 않는 file등을 제외시키는 방식이다. 임시 file이나 compilation product등 다른 협업자에게 commit할 때 무시되었으면 하는 file들을 tracking시 ignore할 수 있다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+
+SSH keys can be an alternative way to identidy users without checking account information. SSH keys are public keys that are stored only on each user's computer. Therefore, users can be granted access by SSH keys; not using User ID and password. SSH key includes two keys: a public key and a private key. While public key is copied to SSH server, a private key remains only with user to identify user. Due to its high-level security, users can choose to login Github using SSH keys instead of typing long, complex ID and password.
