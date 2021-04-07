@@ -1,3 +1,9 @@
 0. What is your name and student ID?
+My name is lee seung_jun. My student ID is 2018-16905.
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+원하지 않는 파일의 tracking을 중단하는 것이다. 그렇게 함으로써 파일끼리의 충돌을 막을 수 있다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+내 repository에 타인이 push 하지 못하게 한다.
+
