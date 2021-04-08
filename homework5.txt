@@ -1,3 +1,8 @@
 0. What is your name and student ID?
+김가연, 2020-16138
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+.gitignore is used to exclude unwanted files from a project.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH keys are used to identify users using GIT hub. When users push to repos, they must be authorized. An SSH key pair is used to check if one is authorized.
