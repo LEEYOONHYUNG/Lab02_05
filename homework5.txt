@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+Orif Madaminov, 2020-16761
 1. What is .gitignore? You can write the answer either in Korean or English.
+A local .gitignore file is usually placed in the root directory of a project. You can also create a global .gitignore file and any entries in that file will be ignored in all of your Git repositories.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+SSH keys are an authentication method used to gain access to an encrypted connection between systems and then ultimately use that connection to manage the remote system. SSH keys come in pairs, a public key that gets shared with services like GitHub, and a private key that is stored only on your computer. If the keys match, you're granted access.
