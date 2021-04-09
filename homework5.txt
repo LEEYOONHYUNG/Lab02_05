@@ -1,3 +1,10 @@
 0. What is your name and student ID?
+황민호, 2020-10257
 1. What is .gitignore? You can write the answer either in Korean or English.
+A .gitignore file specifies files that are intentionally being untracked and Git should ignore. The .gitignore file is made up of lines that each specify a file pattern, such as a file name or path.
+(Reference: "gitignore Documentations", git, git-scm.com/docs/gitignore, Retrieved 2021.4.9.)
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+An SSH key pair is necessary for authentication of the user when accessing Github and working with remote servers. A user with an SSH key pair does not need to enter their username and password every time they wish to connect to Github.
+Authentication using SSH keys requires a key pair, made up of a public key and a private key. The public key is possesed by the user and the SSH server. The private key remains only with the user and is used to decrypt the data encrypted by the public key.
+(Reference: "What is SSH Public Key Authentication?" SSH.com, https://www.ssh.com/academy/ssh/public-key-authentication, Retrieved 2021.4.9.
+"Connecting to GitHub with SSH", GitHub Docs, https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh, Retrieved 2921.4.9.)
