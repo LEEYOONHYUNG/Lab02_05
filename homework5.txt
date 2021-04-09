@@ -1,3 +1,11 @@
 0. What is your name and student ID?
+
+Dong Chang Goo 2015-12186
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+
+.gitignore is a .txt file that is placed in the root directory of a project and its purpose is to tell Git to ignore certain files and folders in a project.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+
+The SSH key pair acts like a username/password as identification that also authenticate the connection as secure. The SSH key can be a public or a private key, the former used to share with other while the latter must be kept private and not shared. Essentially, through the use of the public SSH key, one can identify themselves and securely connect to others so that they can make requests and edit files.
