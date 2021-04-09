@@ -1,3 +1,11 @@
 0. What is your name and student ID?
+
+Jungwoo Park, 2020-13139
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+
+프로젝트에서 원하지 않는 백업 파일 및 로그 파일, 그리고 컴파일된 파일들을 git에서 제외시킬 수 있는 설정 파일이다. git add .이라는 명령어를 실행할 때 staging에서 열외되는 파일이다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key.
+
+SSH는 secure shell protocol의 약자로, 서버와 클라이언트가 통신할 때 보안을 위한 프로토콜이다. SSH에서는 대칭 키 방식과 비대칭 키 방식을 모두 사용하여 암호화한다. 비대칭 키를 통해 서버 인증과 사용자 인증을 하고, 대칭 키를 통해 데이터를 암호화한다. 비대칭 키 방식은 public key로 암호화하고 private key로 복호화하는 방식이다. github 계정 정보만을 이용하면 보안에 취약해질 수 밖에 없다. 비공개된 private key를 이용하는 SSH key pair 방식을 사용하면 높은 수준의 보안을 얻을 수 있다.
